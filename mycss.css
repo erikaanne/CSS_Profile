@@ -1,0 +1,129 @@
+/* Base setup */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d4e9ed;
+  overflow-x: hidden;
+}
+
+/* Header with background image */
+.header-section {
+  background-image: url('HEADER.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto; 
+  text-align: center;
+  padding: 120px 20px 80px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.header-section h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.header-section h2 {
+  font-size: 30px;
+  margin: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* White section */
+.white-section {
+  background: linear-gradient(to bottom, #f7a7c1, #92a8d1); /* Rose Quartz to Serenity gradient */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.white-section h1 {
+  font-size: 40px;
+  color: #292b36;
+}
+
+/* Profile picture style */
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Mint green headers - Removed mint green color from these classes */
+.mint-text, .mint-text-2 {
+  color: inherit; /* Or set a color that suits you */
+}
+
+/* Paragraph font */
+.p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Skill sections layout */
+.innovation-section, .webdesign-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+/* Remove auto margin for profile pics inside skills */
+.innovation-section .profile-pic,
+.webdesign-section .profile-pic {
+  margin: 0;
+}
+
+/* Skill text alignment */
+.innovation-text, .webdesign-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+/* Skill section headers */
+.innovation-section h2,
+.webdesign-section h2 {
+  color: black;
+}
+
+/* Contact button styling */
+.contact-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  text-decoration: none;
+  background: rgba(247, 167, 193, 0.6); /* Rose Quartz with 60% transparency */
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+  background: rgba(146, 168, 209, 0.6); /* Serenity with 60% transparency on hover */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #7a91b2; /* Darker serenity */
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 0; /* Remove space between footer and upper part */
+}
+
+.footer-content a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #d4e9ed; /* Light bluish hover */
+}
