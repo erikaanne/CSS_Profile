@@ -1,4 +1,3 @@
-/* Base setup */
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -6,7 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Header with background image */
 .header-section {
   background-image: url('HEADER.png');
   background-repeat: no-repeat;
@@ -29,9 +27,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* White section */
 .white-section {
-  background: linear-gradient(to bottom, #f7a7c1, #92a8d1); /* Rose Quartz to Serenity gradient */
+  background: linear-gradient(to bottom, #f7a7c1, #92a8d1); 
   text-align: center;
   padding: 40px 20px;
 }
@@ -41,7 +38,6 @@ body {
   color: #292b36;
 }
 
-/* Profile picture style */
 .profile-pic {
   width: 200px;
   height: 200px;
@@ -52,17 +48,16 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Mint green headers - Removed mint green color from these classes */
 .mint-text, .mint-text-2 {
-  color: inherit; /* Or set a color that suits you */
+  color: inherit; 
 }
 
-/* Paragraph font */
+
 .p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* Skill sections layout */
+
 .innovation-section, .webdesign-section {
   display: flex;
   align-items: center;
@@ -73,31 +68,31 @@ body {
   padding: 20px;
 }
 
-/* Remove auto margin for profile pics inside skills */
+
 .innovation-section .profile-pic,
 .webdesign-section .profile-pic {
   margin: 0;
 }
 
-/* Skill text alignment */
+
 .innovation-text, .webdesign-text {
   max-width: 500px;
   text-align: left;
 }
 
-/* Skill section headers */
+
 .innovation-section h2,
 .webdesign-section h2 {
   color: black;
 }
 
-/* Contact button styling */
+
 .contact-button {
   display: inline-block;
   padding: 15px 25px;
   font-size: 18px;
   text-decoration: none;
-  background: rgba(247, 167, 193, 0.6); /* Rose Quartz with 60% transparency */
+  background: rgba(247, 167, 193, 0.6); 
   color: black;
   border-radius: 5px;
   text-align: center;
@@ -105,15 +100,15 @@ body {
 }
 
 .contact-button:hover {
-  background: rgba(146, 168, 209, 0.6); /* Serenity with 60% transparency on hover */
+  background: rgba(146, 168, 209, 0.6); 
 }
 
-/* Footer styling */
+
 .footer {
-  background-color: #7a91b2; /* Darker serenity */
+  background-color: #7a91b2; 
   padding: 20px 0;
   text-align: center;
-  margin-top: 0; /* Remove space between footer and upper part */
+  margin-top: 0; 
 }
 
 .footer-content a {
@@ -125,5 +120,5 @@ body {
 }
 
 .footer-content a:hover {
-  color: #d4e9ed; /* Light bluish hover */
+  color: #d4e9ed; 
 }
